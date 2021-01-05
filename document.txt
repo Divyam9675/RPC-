@@ -1,0 +1,11 @@
+// Some of the specific critiria we need to fullfill to work with rpc remotely
+
+// 1. There must be methods not functions
+
+// 2. Each methods starts with capital letter
+
+//3. Each methods have 2 arguments both of which exported type and this is build in type manner
+
+//4. 2nd argument of the method will be pointer type
+
+//5. Return type of that method is error type
